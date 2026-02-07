@@ -1,14 +1,15 @@
 # Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
 *.pyc
 
 # Environment files
-.env
+**/.env
 .env.local
 .env.*.local
+backend/.env
 
 # IDE
 .idea/
@@ -21,9 +22,9 @@ __pycache__/
 Thumbs.db
 
 # Expo
-.expo/
-dist/
-web-build/
+**/.expo/
+**/dist/
+**/web-build/
 
 # Build outputs
 *.log
@@ -31,7 +32,7 @@ npm-debug.log*
 
 # Python
 *.egg-info/
-.eggs/
+*.eggs/
 build/
 develop-eggs/
 
@@ -39,3 +40,6 @@ develop-eggs/
 .coverage
 htmlcov/
 .pytest_cache/
+
+# Cursor
+.cursor/
